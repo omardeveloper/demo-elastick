@@ -1,0 +1,2 @@
+deploy:
+  artifact: target/demo-elastick-0.0.1-SNAPSHOT.jar
