@@ -40,7 +40,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
+				<!--<executions>
 			        <execution>
 			            <id>prepare</id>
 			            <phase>package</phase>
@@ -57,7 +57,7 @@
 			                <goal>run</goal>
 			            </goals>
 			        </execution>
-    			</executions>
+    			</executions>-->
 			</plugin>
 		</plugins>
 	</build>
