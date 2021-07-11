@@ -1,0 +1,17 @@
+version: 0.2
+            
+phases:
+  pre_build:
+    commands:
+      - echo pre_build
+  build:
+    commands:
+      - mvn clean install
+      - echo build
+  post_build:
+    commands:
+      - echo post_build
+
+artifacts:
+  files:
+    - target/demo-elastick-0.0.1-SNAPSHOT.jar
